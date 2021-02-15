@@ -1,0 +1,9 @@
+{
+  "name": "api_de_usuarios",
+  "main": "index.js",
+  "author": "Vinicius Machado Ribeiro",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
