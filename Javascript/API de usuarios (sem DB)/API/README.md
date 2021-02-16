@@ -1,4 +1,4 @@
-#### Como rodar a API
+### Como rodar a API
 
 execute os seguintes comandos:
 ```

@@ -1,4 +1,4 @@
-#### EXERCÍCIO:
+### EXERCÍCIO:
 
 Crie um servidor HTTP para gerenciar usuários com as seguintes rotas:
 
