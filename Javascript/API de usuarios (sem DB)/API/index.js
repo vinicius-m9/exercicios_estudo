@@ -74,7 +74,8 @@ server.get('/users/:id', (req, res) => {
 server.post('/users', (req, res) => {
   const user = req.body
   const email = users.find(usr => usr.email === user.email)
-  const validEmail = String(user.email).match(/@mail.com/g)
+  const emailRegex = /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i
+  const validEmail = emailRegex.test(user.email)
 
   if (email || !validEmail) {
     return res.status(400).send()
