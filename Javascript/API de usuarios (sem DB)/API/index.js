@@ -21,6 +21,8 @@ const createUser = user => {
     user.id = users[users.length - 1].id + 1
   }
 
+  user.createdAt = (new Date()).toString()
+
   users.push(user)
 
   const newUser = JSON.stringify(users, null, 2)
@@ -34,6 +36,8 @@ const changeUser = (alteration, id) => {
   if (name) users[indexId].name = name
   if (email) users[indexId].email = email
   if (password) users[indexId].password = password
+
+  users[indexId].updatedAt = (new Date()).toString()
 
   const userAlteration = JSON.stringify(users, null, 2)
   fs.writeFileSync('users.json', userAlteration)
@@ -70,8 +74,9 @@ server.get('/users/:id', (req, res) => {
 server.post('/users', (req, res) => {
   const user = req.body
   const email = users.find(usr => usr.email === user.email)
+  const validEmail = String(user.email).match(/@mail.com/g)
 
-  if (email) {
+  if (email || !validEmail) {
     return res.status(400).send()
   }
 
