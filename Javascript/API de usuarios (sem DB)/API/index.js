@@ -9,9 +9,9 @@ const fs = require('fs')
 const fakeDB = fs.readFileSync('users.json')
 const users = JSON.parse(fakeDB)
 
-const getUser = id => {
-  return users.find(usr => usr.id === id)
-}
+const getIndexUser = id => users.findIndex(usr => usr.id === id)
+
+const getUser = id => users.find(usr => usr.id === id)
 
 const createUser = user => {
   user.id = users.length
@@ -21,7 +21,7 @@ const createUser = user => {
     user.id = users[users.length - 1].id + 1
   }
 
-  user.createdAt = (new Date()).toString()
+  user.createdAt = new Date().toString()
 
   users.push(user)
 
@@ -30,21 +30,18 @@ const createUser = user => {
 }
 
 const changeUser = (alteration, id) => {
-  const indexId = users.findIndex(usr => usr.id === id)
-  const { name, email, password } = alteration
+  const indexId = getIndexUser(id)
 
-  if (name) users[indexId].name = name
-  if (email) users[indexId].email = email
-  if (password) users[indexId].password = password
+  Object.assign(users[indexId], alteration)
 
-  users[indexId].updatedAt = (new Date()).toString()
+  users[indexId].updatedAt = new Date().toString()
 
   const userAlteration = JSON.stringify(users, null, 2)
   fs.writeFileSync('users.json', userAlteration)
 }
 
 const deleteUser = id => {
-  const indexId = users.findIndex(usr => usr.id === id)
+  const indexId = getIndexUser(id)
 
   users.splice(indexId, 1)
 
@@ -56,17 +53,19 @@ server.listen(PORT, () => {
   console.log(`Listening at http://localhost:${PORT}`)
 })
 
+server.use('/users/:id', (req, res, next) => {
+  req.userId = Number(req.params.id)
+  next()
+})
+
 server.get('/users', (req, res) => {
   res.json(users)
 })
 
 server.get('/users/:id', (req, res) => {
-  const id = Number(req.params.id)
-  const user = getUser(id)
+  const user = getUser(req.userId)
 
-  if (!user) {
-    return res.status(404).send()
-  }
+  if (!user) return res.status(404).send()
 
   res.json(user)
 })
@@ -77,35 +76,27 @@ server.post('/users', (req, res) => {
   const emailRegex = /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i
   const validEmail = emailRegex.test(user.email)
 
-  if (email || !validEmail) {
-    return res.status(400).send()
-  }
+  if (email || !validEmail) return res.status(400).send('Invalid email')
 
   createUser(user)
   res.send('Usuario criado com sucesso!')
 })
 
 server.put('/users/:id', (req, res) => {
-  const id = Number(req.params.id)
-  const user = getUser(id)
+  const user = getUser(req.userId)
   const userAlteration = req.body
 
-  if (!user) {
-    return res.status(404).send()
-  }
+  if (!user) return res.status(404).send()
 
-  changeUser(userAlteration, id)
+  changeUser(userAlteration, req.userId)
   res.send('Usuario alterado com sucesso!')
 })
 
 server.delete('/users/:id', (req, res) => {
-  const id = Number(req.params.id)
-  const user = getUser(id)
+  const user = getUser(req.userId)
 
-  if (!user) {
-    return res.status(404).send()
-  }
+  if (!user) return res.status(404).send()
 
-  deleteUser(id)
+  deleteUser(req.userId)
   res.send('Usuario deletado com sucesso!')
 })
