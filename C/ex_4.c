@@ -16,13 +16,13 @@ Altura do retângulo B.
 void main(){
     float baseA, alturaA, baseB, alturaB;
 
-    printf("Insira o valor da base do retângulo A:\n");
+    printf("Insira o valor da base do retangulo A:\n");
     scanf("%f", &baseA);
-    printf("Insira o valor da altura do retângulo A:\n");
+    printf("Insira o valor da altura do retangulo A:\n");
     scanf("%f", &alturaA);
-    printf("Insira o valor da base do retângulo B:\n");
+    printf("Insira o valor da base do retangulo B:\n");
     scanf("%f", &baseB);
-    printf("Insira o valor da altura do retângulo B:\n");
+    printf("Insira o valor da altura do retangulo B:\n");
     scanf("%f", &alturaB);
 
     if(baseA==alturaA || baseB==alturaB){
@@ -38,6 +38,6 @@ void main(){
     } else {
         printf("A area do retangulo A eh: %f\n", baseA*alturaA);
         printf("A area do retangulo B eh: %f\n", baseB*alturaB);
-        printf("A area do retangulo A eh igual ao do retangulo B!");        
+        printf("A area do retangulo A eh igual ao do retangulo B!");
     }
 }
