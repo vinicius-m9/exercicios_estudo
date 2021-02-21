@@ -1,11 +1,14 @@
 require('dotenv').config()
+
 const express = require('express')
 const server = express()
+// Configuração do express para receber JSON
 server.use(express.json())
 
 const PORT = process.env.PORT || 3000
 
 const fs = require('fs')
+// Lendo o arquivo users.json com o File System
 const fakeDB = fs.readFileSync('users.json')
 const users = JSON.parse(fakeDB)
 
@@ -17,6 +20,7 @@ const createUser = user => {
   user.id = users.length
   const id = users.find(usr => usr.id === user.id)
 
+  // Validação do ID
   if (id) {
     user.id = users[users.length - 1].id + 1
   }
@@ -25,6 +29,7 @@ const createUser = user => {
 
   users.push(user)
 
+  // Sobrescrevendo o arquivo users.json com o File System
   const newUser = JSON.stringify(users, null, 2)
   fs.writeFileSync('users.json', newUser)
 }
@@ -36,6 +41,7 @@ const changeUser = (alteration, id) => {
 
   users[indexId].updatedAt = new Date().toString()
 
+  // Sobrescrevendo o arquivo users.json com o File System
   const userAlteration = JSON.stringify(users, null, 2)
   fs.writeFileSync('users.json', userAlteration)
 }
@@ -45,23 +51,28 @@ const deleteUser = id => {
 
   users.splice(indexId, 1)
 
+  // Sobrescrevendo o arquivo users.json com o File System
   const userDeleted = JSON.stringify(users, null, 2)
   fs.writeFileSync('users.json', userDeleted)
 }
 
+// Iniciando o server na porta especificada no dotenv ou na porta 3000
 server.listen(PORT, () => {
   console.log(`Listening at http://localhost:${PORT}`)
 })
 
+// Middleware para transformar o ID em número
 server.use('/users/:id', (req, res, next) => {
   req.userId = Number(req.params.id)
   next()
 })
 
+// Busca todos os usuários
 server.get('/users', (req, res) => {
   res.json(users)
 })
 
+// Busca um usuário pelo seu ID
 server.get('/users/:id', (req, res) => {
   const user = getUser(req.userId)
 
@@ -70,9 +81,13 @@ server.get('/users/:id', (req, res) => {
   res.json(user)
 })
 
+// Cria um usuário
 server.post('/users', (req, res) => {
   const user = req.body
+
+  // Valida se o email já existe
   const email = users.find(usr => usr.email === user.email)
+  // Valida se o email é válido
   const emailRegex = /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i
   const validEmail = emailRegex.test(user.email)
 
@@ -82,6 +97,7 @@ server.post('/users', (req, res) => {
   res.send('Usuario criado com sucesso!')
 })
 
+// Altera um usuário pelo seu ID
 server.put('/users/:id', (req, res) => {
   const user = getUser(req.userId)
   const userAlteration = req.body
@@ -92,6 +108,7 @@ server.put('/users/:id', (req, res) => {
   res.send('Usuario alterado com sucesso!')
 })
 
+// Deleta um usuário pelo seu ID
 server.delete('/users/:id', (req, res) => {
   const user = getUser(req.userId)
 
