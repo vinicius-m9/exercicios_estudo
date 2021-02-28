@@ -1,8 +1,8 @@
-/*
-Usando o comando switch, implemente um algoritmo que leia um inteiro entre 1 e 7 e imprima
-o dia da semana correspondente a esse número. Isto é, Domingo!, se 1, Segunda-feira!, se 2,
-e assim por diante. Além disso, caso o usuário insira qualquer número diferente de 1-7, a
-mensagem "Numero invalido!" deve ser impressa.
+/**
+* Usando o comando switch, implemente um algoritmo que leia um inteiro entre 1 e 7 e imprima
+* o dia da semana correspondente a esse número. Isto é, Domingo!, se 1, Segunda-feira!, se 2,
+* e assim por diante. Além disso, caso o usuário insira qualquer número diferente de 1-7, a
+* mensagem "Numero invalido!" deve ser impressa.
 */
 
 #include<stdio.h>

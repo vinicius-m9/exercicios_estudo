@@ -1,6 +1,6 @@
-/*
-Faça um programa que leia DOIS números e mostre o MAIOR deles. Se, por acaso, os dois números
-forem IGUAIS, imprima a mensagem “Numeros Iguais!!”.
+/**
+* Faça um programa que leia DOIS números e mostre o MAIOR deles. Se, por acaso, os dois números
+* forem IGUAIS, imprima a mensagem “Numeros Iguais!!”.
 */
 
 #include<stdio.h>

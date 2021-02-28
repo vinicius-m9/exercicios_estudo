@@ -1,18 +1,18 @@
-/*
-Implemente um algoritmo que leia um Código de Operação:
-
-1: soma dois números (a + b);
-2: soma três números (a + b + c);
-3: multiplicação de dois números (a * b);
-0: sair.
-
-Se o usuário digitar a operação SAIR (0), o programa mostra o MENOR
-resultado obtido, considerando SOMENTE as operações realizadas, e ENCERRA.
-Entretanto, caso NENHUM Código de Operação seja selecionado, a seguinte
-mensagem deve ser impressa: "Nenhum calculo foi realizado!". Caso contrário,
-solicitará a ENTRADA dos números (a e b OU a, b e c) e imprimirá o resultado
-da operação (soma ou multiplicação). Após isso, o programa volta a SOLICITAR
-o Código de Operação para o usuário digitar uma NOVA OPERAÇÃO.
+/**
+* Implemente um algoritmo que leia um Código de Operação:
+*
+* 1: soma dois números (a + b);
+* 2: soma três números (a + b + c);
+* 3: multiplicação de dois números (a * b);
+* 0: sair.
+*
+* Se o usuário digitar a operação SAIR (0), o programa mostra o MENOR
+* resultado obtido, considerando SOMENTE as operações realizadas, e ENCERRA.
+* Entretanto, caso NENHUM Código de Operação seja selecionado, a seguinte
+* mensagem deve ser impressa: "Nenhum calculo foi realizado!". Caso contrário,
+* solicitará a ENTRADA dos números (a e b OU a, b e c) e imprimirá o resultado
+* da operação (soma ou multiplicação). Após isso, o programa volta a SOLICITAR
+* o Código de Operação para o usuário digitar uma NOVA OPERAÇÃO.
 */
 
 #include<stdio.h>

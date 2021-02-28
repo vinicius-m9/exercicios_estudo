@@ -1,9 +1,9 @@
-/*
-Faça uma função que receba um número (num) inteiro de 1 a 7 e
-imprima na tela o dia da semana, de acordo com o número digitado
-pelo usuário. Caso o usuário digite um número incorreto (num<1 OU num>7),
-o algoritmo deve informar o alerta "O numero deve ser >=1 e <=7!" e
-solicitar NOVAMENTE que o usuário digite o número correto.
+/**
+* Faça uma função que receba um número (num) inteiro de 1 a 7 e
+* imprima na tela o dia da semana, de acordo com o número digitado
+* pelo usuário. Caso o usuário digite um número incorreto (num<1 OU num>7),
+* o algoritmo deve informar o alerta "O numero deve ser >=1 e <=7!" e
+* solicitar NOVAMENTE que o usuário digite o número correto.
 */
 
 #include<stdio.h>

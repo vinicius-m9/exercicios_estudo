@@ -1,8 +1,8 @@
-/*
-Faça um programa que LEIA um valor inteiro e positivo N,
-calcule e mostre o valor E, conforme a fórmula a seguir:
-
-E = 1/1! + 1/2! + 1/3! + ... + 1/N!
+/**
+* Faça um programa que LEIA um valor inteiro e positivo N,
+* calcule e mostre o valor E, conforme a fórmula a seguir:
+*
+* E = 1/1! + 1/2! + 1/3! + ... + 1/N!
 */
 
 #include<stdio.h>

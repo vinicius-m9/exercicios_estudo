@@ -1,6 +1,6 @@
-/*
-Escreva um programa que leia o número de alunos e de alunas de uma sala.
-Como saída, o programa deve apresentar o número de alunos, de alunas e o total de alunos na sala.
+/**
+* Escreva um programa que leia o número de alunos e de alunas de uma sala.
+* Como saída, o programa deve apresentar o número de alunos, de alunas e o total de alunos na sala.
 */
 
 #include<stdio.h>
