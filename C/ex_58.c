@@ -1,9 +1,9 @@
 /**
-* Crie uma enumeração representando os dias da semana. Agora,
+* Crie uma enumeracao representando os dias da semana. Agora,
 * escrevaum programa que leia um valor inteiro do teclado e
 * exiba o dia da semana correspondente.
 *
-* PS: Utilize a função scanf() para fazer a leitura do teclado.
+* PS: Utilize a funcao scanf() para fazer a leitura do teclado.
 */
 
 #include <stdio.h>

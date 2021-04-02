@@ -1,18 +1,18 @@
 /**
-* Implemente um algoritmo que leia um Código de Operação:
+* Implemente um algoritmo que leia um Codigo de Operacao:
 *
-* 1: soma dois números (a + b);
-* 2: soma três números (a + b + c);
-* 3: multiplicação de dois números (a * b);
+* 1: soma dois numeros (a + b);
+* 2: soma tres numeros (a + b + c);
+* 3: multiplicacao de dois numeros (a * b);
 * 0: sair.
 *
-* Se o usuário digitar a operação SAIR (0), o programa mostra o MENOR
-* resultado obtido, considerando SOMENTE as operações realizadas, e ENCERRA.
-* Entretanto, caso NENHUM Código de Operação seja selecionado, a seguinte
-* mensagem deve ser impressa: "Nenhum calculo foi realizado!". Caso contrário,
-* solicitará a ENTRADA dos números (a e b OU a, b e c) e imprimirá o resultado
-* da operação (soma ou multiplicação). Após isso, o programa volta a SOLICITAR
-* o Código de Operação para o usuário digitar uma NOVA OPERAÇÃO.
+* Se o usuario digitar a operacao SAIR (0), o programa mostra o MENOR
+* resultado obtido, considerando SOMENTE as operacoes realizadas, e ENCERRA.
+* Entretanto, caso NENHUM Codigo de Operacao seja selecionado, a seguinte
+* mensagem deve ser impressa: "Nenhum calculo foi realizado!". Caso contrario,
+* solicitara a ENTRADA dos numeros (a e b OU a, b e c) e imprimira o resultado
+* da operacao (soma ou multiplicacao). Apos isso, o programa volta a SOLICITAR
+* o Codigo de Operacao para o usuario digitar uma NOVA OPERACAO.
 */
 
 #include<stdio.h>
@@ -21,7 +21,7 @@ void main(){
     int n, a, b, c, result, cont=-1, lowestResult;
 
     do{
-        printf("1: soma dois números (a + b);\n2: soma três números (a + b + c);\n3: multiplicação de dois números (a * b);\n0: sair.\n");
+        printf("1: soma dois nï¿½meros (a + b);\n2: soma trï¿½s nï¿½meros (a + b + c);\n3: multiplicaï¿½ï¿½o de dois nï¿½meros (a * b);\n0: sair.\n");
         scanf("%i", &n);
 
         if(n==1){

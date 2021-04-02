@@ -3,7 +3,7 @@
 * e a IDADE de uma pessoa e armazene esses dados em uma ESTRUTURA.
 * Em seguida, imprima na tela os dados da estrutura lida.
 *
-* PS: Utilize a função scanf() para fazer a leitura do teclado.
+* PS: Utilize a funcao scanf() para fazer a leitura do teclado.
 */
 
 #include <stdio.h>

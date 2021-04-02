@@ -1,10 +1,10 @@
 /**
-* Escreva uma função que receba dois valores numéricos e um símbolo.
-* Esse símbolo representará a operação que se deseja efetuar com os
-* números. Assim, se o símbolo for “+”, deverá ser realizada uma
-* adição, se for “-”, uma subtração, se for “/”, uma divisão e se
-* for “*”, será efetuada uma multiplicação. Retorne o resultado da
-* operação para o programa principal.
+* Escreva uma funcao que receba dois valores numericos e um simbolo.
+* Esse simbolo representara a operacao que se deseja efetuar com os
+* numeros. Assim, se o simbolo for “+”, devera ser realizada uma
+* adicao, se for “-”, uma subtracao, se for “/”, uma divisao e se
+* for “*”, sera efetuada uma multiplicacao. Retorne o resultado da
+* operacao para o programa principal.
 */
 
 #include<stdio.h>

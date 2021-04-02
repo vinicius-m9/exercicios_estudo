@@ -1,6 +1,6 @@
 /**
-* Crie uma função recursiva que IMPRIMA todos os
-* números naturais de 0 até N em ordem CRESCENTE.
+* Crie uma funcao recursiva que IMPRIMA todos os
+* numeros naturais de 0 ate N em ordem CRESCENTE.
 */
 
 #include <stdio.h>

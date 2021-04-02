@@ -1,7 +1,7 @@
 /**
-* Faça um programa que preencha um vetor com 5 números reais.
-* Em seguida, calcule e mostre na tela a QUANTIDADE de números
-* negativos e a SOMA dos números positivos desse vetor.
+* Faca um programa que preencha um vetor com 5 numeros reais.
+* Em seguida, calcule e mostre na tela a QUANTIDADE de numeros
+* negativos e a SOMA dos numeros positivos desse vetor.
 */
 
 #include <stdio.h>

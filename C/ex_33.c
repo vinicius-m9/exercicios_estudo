@@ -1,5 +1,5 @@
 /**
-* LEIA um vetor com 10 números de ponto flutuante. Em seguida,
+* LEIA um vetor com 10 numeros de ponto flutuante. Em seguida,
 * ORDENE os elementos desse vetor e IMPRIMA o vetor na tela.
 */
 

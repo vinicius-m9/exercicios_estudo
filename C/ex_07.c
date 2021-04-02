@@ -1,9 +1,9 @@
 /**
-* A importância de R$780.00 será dividida entre três ganhadores de um concurso, sendo que:
+* A importancia de R$780.00 sera dividida entre tres ganhadores de um concurso, sendo que:
 *
-* O primeiro ganhador receberá 46% do total;
-* O segundo receberá 32% do total;
-* O terceiro receberá o restante.
+* O primeiro ganhador recebera 46% do total;
+* O segundo recebera 32% do total;
+* O terceiro recebera o restante.
 *
 * Calcule e imprima a quantia recebida por cada um dos ganhadores.
 */

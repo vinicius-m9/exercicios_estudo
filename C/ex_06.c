@@ -1,5 +1,5 @@
 /**
-* Faça um programa que leia um número inteiro e imprima seu antecessor e seu sucessor.
+* Faca um programa que leia um numero inteiro e imprima seu antecessor e seu sucessor.
 */
 
 #include<stdio.h>

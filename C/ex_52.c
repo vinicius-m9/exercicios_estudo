@@ -1,7 +1,7 @@
 /**
-* A multiplicação de dois números inteiros pode ser feita através de somas
-* sucessivas (por exemplo, 2 * 3 = 2 + 2 + 2). Crie uma função recursiva
-* que calcule a multiplicação por somas sucessivas de DOIS inteiros.
+* A multiplicacao de dois numeros inteiros pode ser feita atraves de somas
+* sucessivas (por exemplo, 2 * 3 = 2 + 2 + 2). Crie uma funcao recursiva
+* que calcule a multiplicacao por somas sucessivas de DOIS inteiros.
 */
 
 #include <stdio.h>

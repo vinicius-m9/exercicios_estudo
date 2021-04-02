@@ -1,8 +1,8 @@
 /**
-* Faça um programa que permita ao usuário entrar com uma matriz
-* de tamanho 3 × 3 de números INTEIROS. Em seguida, calcule um VETOR
-* contendo TRÊS posições, em que cada posição deverá armazenar a SOMA
-* dos números de cada COLUNA da matriz. Exiba na tela esse array.
+* Faca um programa que permita ao usuario entrar com uma matriz
+* de tamanho 3 X 3 de numeros INTEIROS. Em seguida, calcule um VETOR
+* contendo TRES posicoes, em que cada posicao devera armazenar a SOMA
+* dos numeros de cada COLUNA da matriz. Exiba na tela esse array.
 */
 
 #include <stdio.h>

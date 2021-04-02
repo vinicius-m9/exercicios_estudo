@@ -1,8 +1,8 @@
 /**
-* SEM usar a função strlen(), faça um programa que LEIA uma string,
-* com até 8 caracteres, imprima cada caractere e a sua quantidade.
+* SEM usar a funcao strlen(), faca um programa que LEIA uma string,
+* com ate 8 caracteres, imprima cada caractere e a sua quantidade.
 *
-* Utilize a função scanf() para ler os caracteres do teclado.
+* Utilize a funcao scanf() para ler os caracteres do teclado.
 */
 
 #include <stdio.h>

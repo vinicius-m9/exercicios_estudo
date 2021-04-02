@@ -1,6 +1,6 @@
 /**
-* Faça um programa que receba do usuário DOIS arrays, A e B,
-* com 5 números inteiros cada. Crie um novo array C calculando
+* Faca um programa que receba do usuario DOIS arrays, A e B,
+* com 5 numeros inteiros cada. Crie um novo array C calculando
 * C = A - B. Mostre na tela os dados do array C.
 */
 

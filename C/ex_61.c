@@ -1,12 +1,12 @@
 /**
-* Faça um programa que leia, pelo TECLADO, DOIS (2) valores
-* INTEIROS e chame uma função que receba estas DUAS variáveis
-* e TROQUE o seu conteúdo, ou seja, esta função é chamada
-* passando DUAS variáveis A e B por exemplo e, após a execução
-* da função, A conterá o valor de B e B terá o valor de A. Após
-* a troca, as variáveis atualizadas devem ser impressas na função
+* Faca um programa que leia, pelo TECLADO, DOIS (2) valores
+* INTEIROS e chame uma funcao que receba estas DUAS variaveis
+* e TROQUE o seu conteudo, ou seja, esta funcao e chamada
+* passando DUAS variaveis A e B por exemplo e, apos a execucao
+* da funcao, A contera o valor de B e B tera o valor de A. Apos
+* a troca, as variaveis atualizadas devem ser impressas na funcao
 * main(). Vale ressaltar que ponteiros devem ser utilizados para
-* resolver o exercício.
+* resolver o exercicio.
 */
 
 #include <stdio.h>

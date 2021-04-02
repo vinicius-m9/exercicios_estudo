@@ -1,6 +1,6 @@
 /**
-* Elabore um programa que solicite, na seguinte ordem, ao usuário entrar com o valor do dia,
-* mês e ano (inteiros). Em seguida, imprima os valores lidos separados por uma barra (/).
+* Elabore um programa que solicite, na seguinte ordem, ao usuario entrar com o valor do dia,
+* mes e ano (inteiros). Em seguida, imprima os valores lidos separados por uma barra (/).
 */
 
 #include<stdio.h>

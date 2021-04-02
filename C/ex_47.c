@@ -1,5 +1,5 @@
 /**
-* Escreva uma função recursiva que calcule a SOMA dos primeiros n cubos:
+* Escreva uma funcao recursiva que calcule a SOMA dos primeiros n cubos:
 *
 * S = 1^3 + 2^3 + ... + n^3
 */

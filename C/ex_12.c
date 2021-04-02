@@ -1,6 +1,6 @@
 /**
-* Faça um programa que leia um número inteiro positivo N e imprima todos os
-* números naturais de 0 até N em ordem CRESCENTE e DECRESCENTE.
+* Faca um programa que leia um numero inteiro positivo N e imprima todos os
+* numeros naturais de 0 ate N em ordem CRESCENTE e DECRESCENTE.
 */
 
 #include<stdio.h>

@@ -1,7 +1,7 @@
 /*
-* Crie uma função que receba como parâmetro um VETOR de INTEIROS
-* com TAMANHO CINCO e o imprima. NÃO utilize índices para percorrer
-* o vetor, apenas ARITMÉTICA DE PONTEIROS.
+* Crie uma funcao que receba como parametro um VETOR de INTEIROS
+* com TAMANHO CINCO e o imprima. NAO utilize indices para percorrer
+* o vetor, apenas ARITMETICA DE PONTEIROS.
 */
 
 #include <stdio.h>

@@ -1,8 +1,8 @@
 /*
-* Implemente uma função que receba DOIS parâmetros: um vetor de
+* Implemente uma funcao que receba DOIS parametros: um vetor de
 * caracteres (tamanho 5) e um valor do mesmo tipo do vetor. A
-* função deverá preencher os elementos do vetor com esse valor.
-* NÃO utilize índices para percorrer o vetor, apenas aritmética
+* funcao devera preencher os elementos do vetor com esse valor.
+* NAO utilize indices para percorrer o vetor, apenas aritmetica
 * de ponteiros.
 */
 

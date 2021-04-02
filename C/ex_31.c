@@ -1,7 +1,7 @@
 /**
-* Faça um programa que leia, pelo teclado, um vetor inteiro com
-* 6 posições. Verifique se existem valores IGUAIS e os escreva na
-* tela. Caso NÃO existam valores iguais, a seguinte mensagem deve
+* Faca um programa que leia, pelo teclado, um vetor inteiro com
+* 6 posicoes. Verifique se existem valores IGUAIS e os escreva na
+* tela. Caso NAO existam valores iguais, a seguinte mensagem deve
 * ser impressa: "Nao existem valores iguais!".
 */
 

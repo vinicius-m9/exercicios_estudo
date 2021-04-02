@@ -1,9 +1,9 @@
 /**
 * Escreva um programa que declare um inteiro (x = 3), um float
 * (y = 3.4) e um char (z = 'A'), e PONTEIROS para inteiro, float,
-* e char. ASSOCIE as variáveis aos ponteiros (use &). MODIFIQUE,
-* pelo TECLADO, os valores de CADA variável usando os PONTEIROS.
-* IMPRIMA os valores das variáveis ANTES e APÓS a modificação.
+* e char. ASSOCIE as variaveis aos ponteiros (use &). MODIFIQUE,
+* pelo TECLADO, os valores de CADA variavel usando os PONTEIROS.
+* IMPRIMA os valores das variaveis ANTES e APOS a modificacao.
 */
 
 #include <stdio.h>

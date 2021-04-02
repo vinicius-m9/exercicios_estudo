@@ -1,8 +1,8 @@
 /*
 * Escreva um programa que declare uma MATRIZ de inteiros (3 x 3)
 * e um ponteiro para inteiros. ASSOCIE o PONTEIRO a MATRIZ. Agora,
-* SOME mais um (+1) a cada posição da MATRIZ usando o ponteiro.
-* Utilize aritmética de ponteiros para resolver o problema.
+* SOME mais um (+1) a cada posicao da MATRIZ usando o ponteiro.
+* Utilize aritmetica de ponteiros para resolver o problema.
 */
 
 #include <stdio.h>

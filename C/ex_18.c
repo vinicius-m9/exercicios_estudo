@@ -1,7 +1,7 @@
 /**
-* Escreva um programa que leia um número inteiro positivo N e
-* em seguida imprima N linhas do chamado triângulo de Floyd.
-* Por exemplo, para N=6, o seguinte triângulo é formado:
+* Escreva um programa que leia um numero inteiro positivo N e
+* em seguida imprima N linhas do chamado triangulo de Floyd.
+* Por exemplo, para N=6, o seguinte triangulo e formado:
 *
 * 1
 * 2  3

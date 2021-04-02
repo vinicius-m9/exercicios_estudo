@@ -1,6 +1,6 @@
 /**
-* Faça um programa que leia uma matriz de tamanho 4 × 4. Calcule
-* e imprima a SOMA dos elementos dessa matriz que estão ABAIXO da
+* Faca um programa que leia uma matriz de tamanho 4 X 4. Calcule
+* e imprima a SOMA dos elementos dessa matriz que estao ABAIXO da
 * DIAGONAL PRINCIPAL.
 */
 

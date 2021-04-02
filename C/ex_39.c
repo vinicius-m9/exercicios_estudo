@@ -1,6 +1,6 @@
 /**
-* Implemente um algoritmo que declare uma matriz de tamanho linha × coluna,
-* sendo linha = coluna e devem ser DEFINIDAS pelo USUÁRIO. Preencha com 1 a DIAGONAL
+* Implemente um algoritmo que declare uma matriz de tamanho linha X coluna,
+* sendo linha = coluna e devem ser DEFINIDAS pelo USUARIO. Preencha com 1 a DIAGONAL
 * PRINCIPAL e com 0 os DEMAIS ELEMENTOS. Ao final, ESCREVA a matriz obtida na tela.
 */
 

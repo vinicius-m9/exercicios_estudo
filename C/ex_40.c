@@ -1,7 +1,7 @@
 /**
-* Leia uma matriz de tamanho 4 × 4. Em seguida, CONTE e ESCREVA
-* na tela a quantidade de valores MAIORES do que 10 e também a
-* quantidade de números NEGATIVOS.
+* Leia uma matriz de tamanho 4 X 4. Em seguida, CONTE e ESCREVA
+* na tela a quantidade de valores MAIORES do que 10 e tambem a
+* quantidade de numeros NEGATIVOS.
 */
 
 #include <stdio.h>

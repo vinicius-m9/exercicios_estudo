@@ -1,10 +1,10 @@
 /**
-* Faça um programa que mostre ao usuário um menu com quatro opções de operações matemáticas
-* (1-Soma, 2-Subtração, 3-Divisão e 4-Multiplicação). O usuário escolhe uma das opções, e o
-* seu algoritmo solicita DOIS valores numéricos e realiza a operação, mostrando o resultado.
-* Entretanto, se o usuário digitar alguma opção diferente de 1-4, a seguinte mensagem deve
-* ser apresentada: "Numero Invalido!". Além disso, os valores numéricos das operações de SOMA,
-* SUBTRAÇÃO e MULTIPLICAÇÃO devem ser declarados como INTEIROS (int) e no caso da DIVISÃO,
+* Faca um programa que mostre ao usuario um menu com quatro opcoes de operacoes matematicas
+* (1-Soma, 2-Subtracao, 3-Divisao e 4-Multiplicacao). O usuario escolhe uma das opcoes, e o
+* seu algoritmo solicita DOIS valores numericos e realiza a operacao, mostrando o resultado.
+* Entretanto, se o usuario digitar alguma opcao diferente de 1-4, a seguinte mensagem deve
+* ser apresentada: "Numero Invalido!". Alem disso, os valores numericos das operacoes de SOMA,
+* SUBTRACAO e MULTIPLICACAO devem ser declarados como INTEIROS (int) e no caso da DIVISAO,
 * devem ser declarados como double.
 */
 

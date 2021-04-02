@@ -1,11 +1,11 @@
 /*
-* Implemente uma função que receba como parâmetro um array de números
-* do tipo float de tamanho N e RETORNE quantos números NEGATIVOS há
-* nesse array. Essa função deve obedecer ao protótipo:
+* Implemente uma funcao que receba como parametro um array de numeros
+* do tipo float de tamanho N e RETORNE quantos numeros NEGATIVOS ha
+* nesse array. Essa funcao deve obedecer ao prototipo:
 *
 * int funcao(float *vet, int N);
 *
-* Ps: Os DADOS DE ENTRADA do algoritmos são o tamanho N e os elementos do array.
+* Ps: Os DADOS DE ENTRADA do algoritmos sao o tamanho N e os elementos do array.
 */
 
 #include <stdio.h>

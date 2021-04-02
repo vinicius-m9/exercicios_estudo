@@ -1,11 +1,11 @@
 /**
 * Crie um vetor do tipo char com TAMANHO 8 e implemente um programa
-* para ler uma string com ATÉ 5 caracteres e a IMPRIMA de TRÁS para
-* a FRENTE. Caso o usuário digitar uma string com MAIS de 5 caracteres,
+* para ler uma string com ATE 5 caracteres e a IMPRIMA de TRAS para
+* a FRENTE. Caso o usuario digitar uma string com MAIS de 5 caracteres,
 * a seguinte mensagem deve ser impressa: "Digite novamente a string com
-* ate 5 caracteres:" para que uma NOVA sequência de caracteres seja inserida.
+* ate 5 caracteres:" para que uma NOVA sequencia de caracteres seja inserida.
 *
-* Utilize a função scanf() para ler os caracteres do teclado.
+* Utilize a funcao scanf() para ler os caracteres do teclado.
 */
 
 #include <stdio.h>

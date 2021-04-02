@@ -1,9 +1,9 @@
 /**
-* Faça um programa que leia, pelo TECLADO, DOIS valores
-* INTEIROS e chame uma função que receba estes DOIS valores
-* de ENTRADA e RETORNE o MAIOR valor na PRIMEIRA VARIÁVEL
-* e o MENOR valor na SEGUNDA VARIÁVEL. Imprima, através da
-* função main(), o conteúdo das DUAS VARIÁVEIS na tela.
+* Faca um programa que leia, pelo TECLADO, DOIS valores
+* INTEIROS e chame uma funcao que receba estes DOIS valores
+* de ENTRADA e RETORNE o MAIOR valor na PRIMEIRA VARIAVEL
+* e o MENOR valor na SEGUNDA VARIAVEL. Imprima, atravas da
+* funcao main(), o conteudo das DUAS VARIAVEIS na tela.
 */
 
 #include <stdio.h>

@@ -1,6 +1,6 @@
 /**
-* Escreva um programa que contenha DUAS variáveis inteiras (x=2 e y=5).
-* Compare seus ENDEREÇOS e exiba a letra "A" para o MAIOR endereço e
+* Escreva um programa que contenha DUAS variaveis inteiras (x=2 e y=5).
+* Compare seus ENDERECOS e exiba a letra "A" para o MAIOR endereco e
 * "B" para o MENOR.
 */
 

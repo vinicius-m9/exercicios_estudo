@@ -1,16 +1,16 @@
 /*
-* Implemente uma função que calcule a área da superfície e o volume
-* de uma esfera de raio R. Essa função deve obedecer ao protótipo:
+* Implemente uma funcao que calcule a area da superficie e o volume
+* de uma esfera de raio R. Essa funcao deve obedecer ao prototipo:
 *
 * void calculo(float R, float *area, float *volume)
 *
-* A área da superfície e o volume são dados, respectivamente, por:
+* A area da superficie e o volume sao dados, respectivamente, por:
 *
 * A = 4 * pi * R^2
 * V = (4 * pi * R^3)/3
 *
-* Ps: Os valores da área e voluma devem ser impressos na função
-* main(). Além disso, o valor de pi deve ser 3.14.
+* Ps: Os valores da area e voluma devem ser impressos na funcao
+* main(). Alem disso, o valor de pi deve ser 3.14.
 */
 
 #include <stdio.h>

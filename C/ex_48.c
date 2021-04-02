@@ -1,6 +1,6 @@
 /**
-* Crie uma função recursiva que receba um número inteiro N e
-* retorne o SOMATÓRIOS dos números de 1 a N.
+* Crie uma funcao recursiva que receba um numero inteiro N e
+* retorne o SOMATORIOS dos numeros de 1 a N.
 */
 
 #include <stdio.h>

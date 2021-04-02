@@ -1,12 +1,12 @@
 /**
 * Crie uma estrutura representando um aluno de uma disciplina.
-* Essa estrutura deve conter o número de matrícula do aluno, seu
-* nome e as notas de três provas. Agora, escreva um programa que
+* Essa estrutura deve conter o numero de matricula do aluno, seu
+* nome e as notas de tres provas. Agora, escreva um programa que
 * LEIA os dados de QUATRO alunos e os armazena nessa estrutura.
 * Em seguida, exiba o NOME e as NOTAS do aluno que possui a MAIOR
-* média geral dentre os quatro.
+* media geral dentre os quatro.
 *
-* PS: Utilize a função scanf() para fazer a leitura do teclado.
+* PS: Utilize a funcao scanf() para fazer a leitura do teclado.
 */
 
 #include <stdio.h>

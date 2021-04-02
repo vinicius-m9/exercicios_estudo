@@ -9,7 +9,7 @@ Estruturada
 #include<stdio.h>
 
 void main(){
-	printf("Programacao\n");
+	  printf("Programacao\n");
     printf("Estruturada\n");
     printf("2021");
 }

@@ -1,11 +1,11 @@
 /*
-* Implemente uma função que aceita como parâmetro um array de INTEIROS
+* Implemente uma funcao que aceita como parametro um array de INTEIROS
 * com N valores, e determina o MAIOR elemento do array e a QUANTIDADE
 * de vezes que este elemento ocorreu no array. Por exemplo, para um
 * array com os seguintes elementos: 5, 2, 15, 3, 7, 15, 8, 6, 15, a
-* função deve retornar para o programa que a chamou o valor 15 e o
-* número 3 (indicando que o número 15 ocorreu 3 vezes). Os DADOS DE
-* ENTRADA do algoritmo são o número N e os elementos do array.
+* funcao deve retornar para o programa que a chamou o valor 15 e o
+* numero 3 (indicando que o numero 15 ocorreu 3 vezes). Os DADOS DE
+* ENTRADA do algoritmo sao o numero N e os elementos do array.
 */
 
 #include <stdio.h>

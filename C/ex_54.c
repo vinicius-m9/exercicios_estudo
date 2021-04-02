@@ -1,7 +1,7 @@
 /**
 * Crie uma estrutura para representar as coordenadas de UM
-* PONTO no plano (posições X e Y). Em seguida, declare e leia
-* do teclado DOIS pontos e exiba a distância entre eles.
+* PONTO no plano (posicoes X e Y). Em seguida, declare e leia
+* do teclado DOIS pontos e exiba a distancia entre eles.
 */
 
 #include <stdio.h>

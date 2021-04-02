@@ -1,6 +1,6 @@
 /**
-* Faça um programa que leia uma matriz de tamanho 3 × 3. Calcule
-* e imprima a SOMA dos elementos dessa matriz que estão ACIMA da
+* Faca um programa que leia uma matriz de tamanho 3 X 3. Calcule
+* e imprima a SOMA dos elementos dessa matriz que estao ACIMA da
 * DIAGONAL PRINCIPAL.
 */
 

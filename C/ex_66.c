@@ -1,6 +1,6 @@
 /*
 * Crie um programa que contenha um array de inteiros com CINCO
-* elementos. Utilizando apenas aritmética de ponteiros, leia esse
+* elementos. Utilizando apenas aritmetica de ponteiros, leia esse
 * array do teclado e IMPRIMA o DOBRO de cada valor lido.
 */
 

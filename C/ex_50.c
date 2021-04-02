@@ -1,5 +1,5 @@
 /**
-* Crie uma função recursiva que retorne a SOMA dos elementos
+* Crie uma funcao recursiva que retorne a SOMA dos elementos
 * de um vetor de inteiros com 4 elementos.
 */
 

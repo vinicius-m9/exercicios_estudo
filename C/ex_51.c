@@ -1,5 +1,5 @@
 /**
-* Escreva uma função recursiva que receba por parâmetro DOIS
+* Escreva uma funcao recursiva que receba por parametro DOIS
 * valores inteiros x e y e calcule e retorne o resultado de
 * x^y para o programa principal.
 */

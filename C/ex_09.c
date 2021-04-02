@@ -1,5 +1,5 @@
 /**
-* Faça um programa que leia DOIS números e mostre o MAIOR deles. Se, por acaso, os dois números
+* Faca um programa que leia DOIS numeros e mostre o MAIOR deles. Se, por acaso, os dois numeros
 * forem IGUAIS, imprima a mensagem “Numeros Iguais!!”.
 */
 

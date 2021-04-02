@@ -1,10 +1,10 @@
 /**
-* Implemente um algoritmo que contenha uma função que permita
-* passar por parâmetro DOIS números inteiros A e B, lidos pelo
-* TECLADO. A função deverá calcular a SOMA entre estes DOIS
-* números e armazenar o resultado na variável A. Esta função
-* NÃO deverá possuir retorno, mas deverá MODIFICAR o valor do
-* PRIMEIRO PARÂMETRO. Imprima os valores de A e B na função main().
+* Implemente um algoritmo que contenha uma funcao que permita
+* passar por parametro DOIS numeros inteiros A e B, lidos pelo
+* TECLADO. A funcao devera calcular a SOMA entre estes DOIS
+* numeros e armazenar o resultado na variavel A. Esta funcao
+* NAO devera possuir retorno, mas devera MODIFICAR o valor do
+* PRIMEIRO PARAMETRO. Imprima os valores de A e B na funcao main().
 */
 
 #include <stdio.h>

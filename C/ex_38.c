@@ -1,7 +1,7 @@
 /**
-* Faça um programa que leia uma matriz (inteiros) de tamanho 3 × 3
-* com números diferentes. Imprima na tela o menor valor, maior valor
-* contido nessa matriz e a sua localização (linha e coluna).
+* Faca um programa que leia uma matriz (inteiros) de tamanho 3 X 3
+* com numeros diferentes. Imprima na tela o menor valor, maior valor
+* contido nessa matriz e a sua localizacao (linha e coluna).
 */
 
 #include <stdio.h>

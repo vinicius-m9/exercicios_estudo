@@ -1,11 +1,11 @@
 /**
-* Faça um programa que leia um VETOR de OITO posições. Em seguida,
-* leia também DOIS valores X e Y, que devem ser verificados, quaisquer
-* correspondentes a duas posições no vetor. Se os valores de X e Y
+* Faca um programa que leia um VETOR de OITO posicoes. Em seguida,
+* leia tambem DOIS valores X e Y, que devem ser verificados, quaisquer
+* correspondentes a duas posicoes no vetor. Se os valores de X e Y
 * forem <0 OU >=8, a seguinte mensagem deve ser impressa: "Valor de X
-* invalido!" ou "Valor de Y invalido!". Após isso, o usuário deve
-* digitar novamente o VALOR correto.  Por fim, o seu algoritmo deverá
-* exibir a SOMA dos valores encontrados nas respectivas posições X e Y.
+* invalido!" ou "Valor de Y invalido!". Apos isso, o usuario deve
+* digitar novamente o VALOR correto.  Por fim, o seu algoritmo devera
+* exibir a SOMA dos valores encontrados nas respectivas posicoes X e Y.
 */
 
 #include <stdio.h>

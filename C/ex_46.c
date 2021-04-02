@@ -1,7 +1,7 @@
 /**
-* Faça um programa que leia uma matriz de tamanho 4 × 4. Calcule
-* e imprima a SOMA dos elementos dessa matriz que NÃO pertencem à
-* DIAGONAL PRINCIPAL nem à DIAGONAL SECUNDÁRIA.
+* Faca um programa que leia uma matriz de tamanho 4 X 4. Calcule
+* e imprima a SOMA dos elementos dessa matriz que NAO pertencem a
+* DIAGONAL PRINCIPAL nem a DIAGONAL SECUNDARIA.
 */
 
 #include <stdio.h>

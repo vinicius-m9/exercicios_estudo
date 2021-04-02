@@ -1,5 +1,5 @@
 /**
-* Faça um programa que leia os valores de a e b (float), calcule e imprima o valor da hipotenusa.
+* Faca um programa que leia os valores de a e b (float), calcule e imprima o valor da hipotenusa.
 */
 
 #include<stdio.h>

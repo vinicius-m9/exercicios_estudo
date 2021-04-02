@@ -1,9 +1,9 @@
 /**
 * Implemente um algoritmo que LEIA do TECLADO um vetor de
-* 10 posições e escreva na tela os números PARES e ÍMPARES.
-* É importante destacar que o seu algoritmo NÃO deve imprimir,
-* caso tiver, números PARES e ÍMPARES repetidos. Além disso,
-* o MAIOR e MENOR número também deve ser impresso.
+* 10 posicoes e escreva na tela os numeros PARES e IMPARES.
+* E importante destacar que o seu algoritmo NAO deve imprimir,
+* caso tiver, numeros PARES e IMPARES repetidos. Alem disso,
+* o MAIOR e MENOR numero tambem deve ser impresso.
 */
 
 #include <stdio.h>

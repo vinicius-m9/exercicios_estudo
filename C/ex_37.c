@@ -2,10 +2,10 @@
 * Crie um array de caracteres de tamanho 8, LEIA uma string do teclado
 * e CONTE quantas vogais (a, e, i, o, u) ela possui. Entre com UM
 * caractere (vogal ou consoante) e SUBSTITUA todas as VOGAIS da palavra
-* dada por esse caractere. Ao final, imprima a NOVA string e o número
+* dada por esse caractere. Ao final, imprima a NOVA string e o numero
 * de vogais que ela possui.
 *
-* Utilize a função scanf() para ler os caracteres do teclado.
+* Utilize a funcao scanf() para ler os caracteres do teclado.
 */
 
 #include <stdio.h>

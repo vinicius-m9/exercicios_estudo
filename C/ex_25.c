@@ -1,8 +1,8 @@
 /**
 * Implemente um algoritmo que LEIA cinco valores e os armazene em um VETOR.
-* Em seguida, mostre todos os valores lidos juntamente com a média dos valores.
+* Em seguida, mostre todos os valores lidos juntamente com a media dos valores.
 *
-* Ps: A média deve ser mostrada usando DUAS casas decimais.
+* Ps: A media deve ser mostrada usando DUAS casas decimais.
 */
 
 #include <stdio.h>

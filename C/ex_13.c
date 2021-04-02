@@ -1,6 +1,6 @@
 /**
-* Faça um programa que leia um número inteiro N e depois
-* imprima os N primeiros números naturais ÍMPARES e PARES.
+* Faca um programa que leia um numero inteiro N e depois
+* imprima os N primeiros numeros naturais IMPARES e PARES.
 */
 
 #include<stdio.h>

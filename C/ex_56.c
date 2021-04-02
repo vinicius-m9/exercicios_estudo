@@ -4,7 +4,7 @@
 * algoritmo que leia os dados de QUATRO atletas, calcule e exiba os
 * NOMES do atleta MAIS ALTO e do MAIS VELHO.
 *
-* PS: Utilize a função scanf() para fazer a leitura do teclado.
+* PS: Utilize a funcao scanf() para fazer a leitura do teclado.
 */
 
 #include <stdio.h>

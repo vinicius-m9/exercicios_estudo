@@ -1,6 +1,6 @@
 /**
-* Leia uma matriz de tamanho 3 × 3. Em seguida, imprima a soma dos valores
-* contidos em sua diagonal principal e também na sua diagonal secundária.
+* Leia uma matriz de tamanho 3 X 3. Em seguida, imprima a soma dos valores
+* contidos em sua diagonal principal e tambem na sua diagonal secundaria.
 */
 
 #include <stdio.h>
