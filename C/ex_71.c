@@ -9,15 +9,15 @@
 #include <stdlib.h>
 
 int main(void){
-    int arr[3][3], *pArr = &arr[0][0];
+  int arr[3][3], *pArr = &arr[0][0];
 
-    for(int index = 0; index < 9; index++){
-        scanf("%d", pArr + index);
-        *(pArr + index) += 1;
-    }
+  for(int index = 0; index < 9; index++){
+    scanf("%d", pArr + index);
+    *(pArr + index) += 1;
+  }
 
-    for(int index = 0; index < 9; index++)
-        printf("%d\n", *(pArr + index));
+  for(int index = 0; index < 9; index++)
+    printf("%d\n", *(pArr + index));
 
 	return 0;
 }
