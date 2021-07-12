@@ -1,1 +1,0 @@
-#### Exercícios realizados no curso: Programação Orientada a Objetos - Universidade Federal do ABC
