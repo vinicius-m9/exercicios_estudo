@@ -1,5 +1,1 @@
-## Exercícios diversos realizados para estudo individual
-
-### Linguagens
-- Javascript
-- C
+## Exercícios em linguagem C realizados para estudo individual
